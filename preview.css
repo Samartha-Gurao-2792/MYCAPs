@@ -1,0 +1,108 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  column-gap: 16px;
+}
+.image-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.profile-pic{
+  width: 36px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.photo{
+  width: 100%;
+  display: block;
+  border-radius: 3px;
+}
+p{
+  font-family: Roboto, Arial;
+}
+.overview{
+  margin-bottom: 15px;    
+}
+.image{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+body{
+  background-color: rgb(229, 229, 229);
+}
+.descrip{
+  font-family: Roboto, Arial;
+  cursor: pointer;
+}
+.Header{
+  height: 70px;
+  display: flex;
+  position: relative;
+  background-color: greenyellow;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 100;
+  top:0px;
+  right: 0px;
+  left: 0px;
+  margin-bottom: 16px;
+}
+.left-section{
+  display: flex;
+  width: 167px;
+  align-items:center;
+  padding-left: 15px;
+}
+.upload{
+  width: 24px;
+  border-radius: 12px;
+  margin-left: 165px;
+}
+.right-section{
+  display: flex;
+  width: 210px;
+  align-items: center;
+
+}
+.menu{
+  width: 24px;
+  border-radius: 12px;
+}
+.middle-section{
+  font-family: Roboto, Arial;
+  font-size: 55px;
+  Font-weight: bold;
+  align-items: Center;
+}
+.Left-section, .Right-section{
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.Left-section .tooltip{
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: rgb(83,83,83);
+  padding: 4px;
+  bottom: -30px;
+  border-radius: 2px;
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+}
+.Right-section .tooltip{
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: rgb(83,83,83);
+  padding: 4px;
+  bottom: -30px;
+  right: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+}
+.Left-section:hover .tooltip,
+.Right-section:hover .tooltip{
+  opacity: 0.8;
+}

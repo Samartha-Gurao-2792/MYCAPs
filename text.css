@@ -1,0 +1,39 @@
+p{
+    font-family: Arial;
+  }
+  .title{
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    line-height: 26px;
+    margin-bottom: 4px;
+  }
+  .descriptn{
+    color: rgb(96, 96, 96);
+    margin-top:0;
+    font-size: 15px;
+  }
+  .channel{
+    font-size: 15px;
+    color:rgb(96, 96, 96);
+    margin-top: 19px;
+  }
+  .info{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    width: 300px;
+    margin-top: 17px;
+    line-height: 20px;
+    margin-bottom: 100px;
+  }
+  .text{
+    font-size: 14px;
+    background-color:rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+  .u:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
